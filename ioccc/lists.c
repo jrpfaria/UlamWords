@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #define q 16
-#define o(x) ((1U << x) - 1)
+#define o(x) ((1U<<x)-1)
 #define u uint64_t
 #define d int
 #define y(i,x,r) for(d i=x;i<r;i++)
