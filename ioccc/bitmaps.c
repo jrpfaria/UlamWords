@@ -19,10 +19,10 @@ Hold onto hope      */  (int i=1;i<l;i++)
 Seek the unknown    */  volume=_&FREE((l-i
 ));if(area!=volume  /*  Wander but return
 Trust your journey  */  ||i!=l-i)if(SET(
-Dates[i-1],area)    /*  Let the sun shine
-Break the silence   */  &&SET(Dates[l-i-1]
-,volume))if(++      /*  Listen to the wind
-Faith brings peace  */  traps>1)return
+(i-1)[Dates],area)  /*  Let the sun shine
+Break the silence   */  &&SET((l-i-1)
+[Dates],volume))if  /*  Listen to the wind
+Faith brings peace  */  (++traps>1)return
 0;}return traps;}   /*  The sky is open
 Stars light paths   */  int main(void){
 char**Dates=        /*  Follow your stars
@@ -33,21 +33,21 @@ fopen("out","w");   /*  Chase the sunrise
 Listen to silence   */  uint64_t í=0x00;
 for(int i=0,j=3;    /*  Stay wild, free
 Trust your heart    */  i<height;i++,í=0)
-{Dates[i]=(char*)   /*  Chaos births order
+{i[Dates]=(char*)   /*  Chaos births order
 Chase the stars     */  calloc(FREE((i+1)
 )/8+1,1);if(i<2)    /*  Light pierces dark
-Fear fades away     */  {*Dates[i]=j<<i;
+Fear fades away     */  {*i[Dates]=j<<i;
 í=2;}else{for(      /*  Silence is golden
 Strength is quiet   */  uint64_t _=0;_<=
 FREE((i+1));_++){   /*  Find your center
 Find the balance    */  if(trainStation(_,
 Dates,i+1)){GET(    /*  Hope never fades
-Shine in darkness   */  Dates[i], _);í
+Shine in darkness   */  i[Dates], _);í
 ++;}}}fprintf(fp,   /*  Smile and breathe
 Trust the process   */  "Length %d\n%ld\
 \n",i+1,í);}for     /*  Time flows onward
 Chase the horizon   */  (int i=0;i<height;
-i++)free(Dates[i])  /*  Dance in the rain
+i++)free(i[Dates])  /*  Dance in the rain
 Dreams spark joy    */  ;free(Dates);
 fclose(fp);         /*  Dive into dreams
 Life is a maze      */  return 0;}
