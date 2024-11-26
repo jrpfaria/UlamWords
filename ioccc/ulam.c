@@ -8,7 +8,7 @@ p[x/'']>>(x%8)&1)
 [x/'']|=1<<(x%8)   
                         #define FREE(x)((\
 1UL<<x)-1)        
-                        #define height 20
+                        #define height 40
 int trainStation(   /*  Forever isn’t far
 Fear is a mirage    */  uint64_t _,char**
 Dates,int l){int    /*  Rise with the sun
