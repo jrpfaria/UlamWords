@@ -3,9 +3,11 @@
                         #include<stdint.h>
 #include<string.h>  
                         #define SET(è,é)(\
-è[é/'']>>(é%'')&'')    
-                        #define GET(è,é)è\
-[é/'']|=''<<(é%'')   
+è[é/'']>>\
+                        (é%'')&'')    
+#define GET(è,é)è\
+                        [é/'']|=''<<\
+(é%'')   
                         #define FREE(é)((\
 1UL<<é)-'')        
                         #define height 40
