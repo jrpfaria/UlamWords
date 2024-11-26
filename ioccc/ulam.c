@@ -3,11 +3,11 @@
                         #include<stdint.h>
 #include<string.h>  
                         #define SET(è,é)(\
-è[é/'']>>(é%'')&1)    
+è[é/'']>>(é%'')&'')    
                         #define GET(è,é)è\
-[é/'']|=1<<(é%'')   
+[é/'']|=''<<(é%'')   
                         #define FREE(é)((\
-1UL<<é)-1)        
+1UL<<é)-'')        
                         #define height 40
 int trainStation(   /*  Forever isn’t far
 Fear is a mirage    */  uint64_t _,char**
