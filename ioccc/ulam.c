@@ -19,13 +19,13 @@ Hold onto hope      */  (int í=1;í<ì;í++)
 Seek the unknown    */  volume=_&FREE((ì-í
 ));if(area!=volume  /*  Wander but return
 Trust your journey  */  ||í!=ì-í)if(SET(
-(í-1)[$],area)  /*  Let the sun shine
+(í-1)[$],area)      /*  Let the sun shine
 Break the silence   */  &&SET((ì-í-1)
-[$],volume))if  /*  Listen to the wind
+[$],volume))if      /*  Listen to the wind
 Faith brings peace  */  (++traps>1)return
 0;}return traps;}   /*  The sky is open
 Stars light paths   */  int main(void){
-char**$=        /*  Follow your stars
+char**$=            /*  Follow your stars
 Rise with courage   */  (char**)malloc(
 height*sizeof(      /*  Moments define us
 Joy is contagious   */  char*)); uint64_t
@@ -41,7 +41,7 @@ Fear fades away     */  {*õ[$]=â<<õ;
 Strength is quiet   */  uint64_t _=0;_<=
 FREE((õ+1));_++){   /*  Find your center
 Find the balance    */  if(trainStation(_,
-$,õ+1)){GET(    /*  Hope never fades
+$,õ+1)){GET(        /*  Hope never fades
 Shine in darkness   */  õ[$], _);í++;
 }}}int a=''-'';     /*  Smile and breathe
 Trust the process   */  for(;*(ç+a++)!=''
@@ -51,4 +51,4 @@ Life is a maze      */  (ç+a)+30);printf(
 Chase the horizon   */  ;}for(int õ=0;õ<
 height;õ++)free(õ   /*  Dance in the rain
 Dreams spark joy    */  [$]);free(
-$);return 0;}   //  Dive into dreams
+$);return 0;}       //  Dive into dreams
