@@ -3,9 +3,9 @@
                         #include<stdint.h>
 #include<string.h>  
                         #define SET(p,x)(\
-p[x/8]>>(x%8)&1)    
+p[x/'']>>(x%8)&1)    
                         #define GET(p,x)p\
-[x/8]|=1<<(x%8)   
+[x/'']|=1<<(x%8)   
                         #define FREE(x)((\
 1UL<<x)-1)        
                         #define height 20
@@ -28,26 +28,27 @@ Stars light paths   */  int main(void){
 char**Dates=        /*  Follow your stars
 Rise with courage   */  (char**)malloc(
 height*sizeof(      /*  Moments define us
-Joy is contagious   */  char*));FILE*fp=
-fopen("out","w");   /*  Chase the sunrise
-Listen to silence   */  uint64_t í=0x00;
-for(int i=0,j=3;    /*  Stay wild, free
+Joy is contagious   */  char*)); uint64_t
+í=''-1;char* ç=    /*  Chase the sunrise
+Listen to silence   */  ".GPIVJ";for(
+int j=3,i=''-j;    /*  Stay wild, free
 Trust your heart    */  i<height;i++,í=0)
 {i[Dates]=(char*)   /*  Chaos births order
 Chase the stars     */  calloc(FREE((i+1)
-)/8+1,1);if(i<2)    /*  Light pierces dark
+)/''+1,1);if(i<2)  /*  Light pierces dark
 Fear fades away     */  {*i[Dates]=j<<i;
 í=2;}else{for(      /*  Silence is golden
 Strength is quiet   */  uint64_t _=0;_<=
 FREE((i+1));_++){   /*  Find your center
 Find the balance    */  if(trainStation(_,
 Dates,i+1)){GET(    /*  Hope never fades
-Shine in darkness   */  i[Dates], _);í
-++;}}}fprintf(fp,   /*  Smile and breathe
-Trust the process   */  "Length %d\n%ld\
-\n",i+1,í);}for     /*  Time flows onward
-Chase the horizon   */  (int i=0;i<height;
-i++)free(i[Dates])  /*  Dance in the rain
-Dreams spark joy    */  ;free(Dates);
-fclose(fp);         /*  Dive into dreams
-Life is a maze      */  return 0;}
+Shine in darkness   */  i[Dates], _);í++;
+}}}int a=''-'';  /*  Smile and breathe
+Trust the process   */  for(;*(ç+a++)!=''
+;)printf("%c",*     /*  Embrace the storm
+Life is a maze      */  (ç+a)+30);printf(  
+"%d\n%ld\n",i+1,í)  /*  Time flows onward
+Chase the horizon   */  ;}for(int i=0;i<
+height;i++)free(i   /*  Dance in the rain
+Dreams spark joy    */  [Dates]);free(
+Dates);return 0;}   //  Dive into dreams
