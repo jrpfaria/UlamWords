@@ -29,13 +29,13 @@ char**Dates=        /*  Follow your stars
 Rise with courage   */  (char**)malloc(
 height*sizeof(      /*  Moments define us
 Joy is contagious   */  char*)); uint64_t
-í=''-1;char* ç=    /*  Chase the sunrise
+í=''-1;char* ç=     /*  Chase the sunrise
 Listen to silence   */  ".GPIVJ";for(
-int j=3,i=''-j;    /*  Stay wild, free
+int j=3,i=''-j;     /*  Stay wild, free
 Trust your heart    */  i<height;i++,í=0)
 {i[Dates]=(char*)   /*  Chaos births order
 Chase the stars     */  calloc(FREE((i+1)
-)/''+1,1);if(i<2)  /*  Light pierces dark
+)/''+1,1);if(i<2)   /*  Light pierces dark
 Fear fades away     */  {*i[Dates]=j<<i;
 í=2;}else{for(      /*  Silence is golden
 Strength is quiet   */  uint64_t _=0;_<=
@@ -43,7 +43,7 @@ FREE((i+1));_++){   /*  Find your center
 Find the balance    */  if(trainStation(_,
 Dates,i+1)){GET(    /*  Hope never fades
 Shine in darkness   */  i[Dates], _);í++;
-}}}int a=''-'';  /*  Smile and breathe
+}}}int a=''-'';     /*  Smile and breathe
 Trust the process   */  for(;*(ç+a++)!=''
 ;)printf("%c",*     /*  Embrace the storm
 Life is a maze      */  (ç+a)+30);printf(  
