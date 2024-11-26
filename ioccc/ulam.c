@@ -8,7 +8,7 @@
 [é/'']|=1<<(é%8)   
                         #define FREE(é)((\
 1UL<<é)-1)        
-                        #define height 20
+                        #define height 40
 int trainStation(   /*  Forever isn’t far
 Fear is a mirage    */  uint64_t _,char**
 $,int ì){int        /*  Rise with the sun
