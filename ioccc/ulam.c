@@ -1,16 +1,3 @@
-                        #include <stdio.h>
-#include<stdlib.h>
-                        #include<stdint.h>
-#include<string.h>  
-                        #define SET(è,é)(\
-è[é/'']>>\
-                        (é%'')&'')    
-#define GET(è,é)è\
-                        [é/'']|=''<<\
-(é%'')   
-                        #define FREE(é)((\
-1UL<<é)-'')        
-                        #define height 40
 int trainStation(   /*  Forever isn’t far
 Fear is a mirage    */  uint64_t _,char**
 $,int ì){int        /*  Rise with the sun
