@@ -13,31 +13,30 @@ Break the silence   */  &&SET((ì-í-1)
 [$],volume))if      /*  Listen to the wind
 Faith brings peace  */  (++traps>1)return
 0;}return traps;}   /*  The sky is open
-Stars light paths   */  int main(void){
-char**$=            /*  Follow your stars
-Rise with courage   */  (char**)malloc(
-height*sizeof(      /*  Moments define us
-Joy is contagious   */  char*)); uint64_t
-í=''-1;char* ç=     /*  Chase the sunrise
-Listen to silence   */  ".GPIVJ";for(
-int â=3,õ=''-â;     /*  Stay wild, free
-Trust your heart    */  õ<height;õ++,í=0)
-{õ[$]=(char*)       /*  Chaos births order
-Chase the stars     */  calloc(FREE((õ+1)
-)/''+1,1);if(õ<2)   /*  Light pierces dark
-Fear fades away     */  {*õ[$]=â<<õ;
-í=2;}else{for(      /*  Silence is golden
-Strength is quiet   */  uint64_t _=0;_<=
-FREE((õ+1));_++){   /*  Find your center
-Find the balance    */  if(trainStation(_,
-$,õ+1)){GET(        /*  Hope never fades
-Shine in darkness   */  õ[$], _);í++;
-}}}int a=''-'';     /*  Smile and breathe
-Trust the process   */  for(;*(ç+a++)!=''
-;)printf("%c",*     /*  Embrace the storm
-Life is a maze      */  (ç+a)+30);printf(  
-"%d\n%ld\n",õ+1,í)  /*  Time flows onward
-Chase the horizon   */  ;}for(int õ=0;õ<
-height;õ++)free(õ   /*  Dance in the rain
-Dreams spark joy    */  [$]);free(
-$);return 0;}       //  Dive into dreams
+Stars light paths   */  int main(){char**
+$=(char**)malloc(   /*
+Rise with courage   */  height*sizeof(
+char*)); uint64_t   /*  Moments define us
+Joy is contagious   */  í=''-1;char* ç=
+".GPIVJ";for(       /*  Chase the sunrise
+Listen to silence   */  int â=3,õ=''-â;
+õ<height;õ++,í=0)   /*  Stay wild, free
+Trust your heart    */  {õ[$]=(char*)
+calloc(FREE((õ+1)   /*  Chaos births order
+Chase the stars     */  )/''+1,1);if(õ<2)
+{*õ[$]=â<<õ;        /*  Light pierces dark
+Fear fades away     */  í=2;}else{for(
+uint64_t _=0;_<=    /*  Silence is golden
+Strength is quiet   */  FREE((õ+1));_++){
+if(trainStation(_,  /*  Find your center
+Find the balance    */  $,õ+1)){GET(
+õ[$], _);í++;       /*  Hope never fades
+Shine in darkness   */  }}}int a=''-'';
+for(;*(ç+a++)!=''   /*  Smile and breathe
+Trust the process   */  ;)printf("%c",*
+(ç+a)+30);printf(   /*  Embrace the storm
+Life is a maze      */  "%d\n%ld\n",õ+1,í)
+;}for(int õ=0;õ<    /*  Time flows onward
+Chase the horizon   */  height;õ++)free(õ
+[$]);free(          /*  Dance in the rain
+Dreams spark joy    */  $);return 0;}
