@@ -14,7 +14,7 @@ Break the silence   */  &&SET((ì-í-1)
 Faith brings peace  */  (++traps>1)return
 0;}return traps;}   /*  The sky is open
 Stars light paths   */  int main(){char**
-$=(char**)malloc(   /*
+$=(char**)malloc(   /*  Believe you can
 Rise with courage   */  height*sizeof(
 char*)); uint64_t   /*  Moments define us
 Joy is contagious   */  í=''-1;char* ç=
